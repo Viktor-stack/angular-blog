@@ -14,6 +14,7 @@ import { PostPageComponent } from './post-page/post-page.component'
 import { PostComponent } from './shared/components/post/post.component'
 import { SharedModule } from './shared/shared.module'
 import { AuthInterceptor } from './shared/auth.interceptor';
+import { Page404Component } from './page404/page404.component';
 
 registerLocaleData(ruLocale, 'ru')
 
@@ -30,7 +31,8 @@ const INTERCEPTOR_PROVIDER: Provider = {
     MainLayoutComponent,
     HomePageComponent,
     PostPageComponent,
-    PostComponent
+    PostComponent,
+    Page404Component
   ],
   imports: [
     BrowserModule,

@@ -13,4 +13,28 @@
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
 </body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyAMReGaxYru7iwtV1_OTO1vHteT4P0FYVQ",
+    authDomain: "angular-blog-cfee9.firebaseapp.com",
+    databaseURL: "https://angular-blog-cfee9.firebaseio.com",
+    projectId: "angular-blog-cfee9",
+    storageBucket: "angular-blog-cfee9.appspot.com",
+    messagingSenderId: "189848971864",
+    appId: "1:189848971864:web:880cbbbd7595a261e8f82d",
+    measurementId: "G-P0MGZ5WHMK"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </html>
